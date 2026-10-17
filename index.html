@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Helium Sinergi Telekomunikasi | Internet Fiber Optik</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            purple: '#8b5cf6',    
+                            dark: '#0f172a',      
+                            gold: '#fbbf24',      
+                            gray: '#f8fafc'
+                        }
+                    },
+                    boxShadow: {
+                        'premium': '0 20px 40px -15px rgba(139, 92, 246, 0.15)',
+                        'glow': '0 0 20px rgba(139, 92, 246, 0.4)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { -webkit-font-smoothing: antialiased; }
+        .text-gold-gradient {
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-brand-gray text-slate-800">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-lg border-b border-slate-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="213055.png" alt="PT Helium Sinergi Telekomunikasi" class="h-10 md:h-12 object-contain">
+            </div>
+            <div class="hidden md:flex items-center gap-6">
+                <a href="#fitur" class="text-sm font-semibold text-slate-600 hover:text-brand-purple transition">Keunggulan</a>
+                <a href="#paket" class="text-sm font-semibold text-slate-600 hover:text-brand-purple transition">Harga Paket</a>
+                <!-- Pesan WA Umum -->
+                <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20lihat%20website-nya%20dan%20tertarik%20banget%20dengan%20*Promo%20Pasang%2050%20Ribu%20(Langsung%20Aktif%201%20Bulan)*.%20Boleh%20minta%20info%20detailnya%20untuk%20lokasi%20saya%3F" class="bg-brand-dark text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-brand-purple transition-all shadow-md">
+                    Hubungi Kami
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-36 pb-24 lg:pt-48 lg:pb-32 bg-brand-dark overflow-hidden">
+        <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-brand-purple/20 rounded-full blur-[100px] mix-blend-screen"></div>
+        <div class="absolute bottom-[-10%] right-[-5%] w-[400px] h-[400px] bg-blue-500/20 rounded-full blur-[100px] mix-blend-screen"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-brand-gold text-sm font-semibold mb-8 backdrop-blur-sm" data-aos="fade-down">
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-gold"></span>
+                </span>
+                Promo Spesial Pemasangan
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight" data-aos="fade-up" data-aos-delay="100">
+                Pasang WiFi Cukup <span class="text-gold-gradient">Rp 50.000</span><br>
+                Langsung Aktif 1 Bulan.
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-medium leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                Tinggalkan biaya awal yang mahal. Mulai berlangganan internet Fiber Optik 100% Unlimited hari ini tanpa biaya tersembunyi.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                <a href="#paket" class="bg-brand-purple hover:bg-purple-500 text-white font-bold py-4 px-8 rounded-full text-lg transition-all shadow-glow hover:-translate-y-1">
+                    Lihat Pilihan Paket
+                </a>
+                <a href="#cara-daftar" class="bg-transparent hover:bg-white/5 text-white border border-white/20 font-bold py-4 px-8 rounded-full text-lg transition-all">
+                    Cara Berlangganan
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="fitur" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 mx-auto bg-purple-50 text-brand-purple rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">100% Fiber Optik</h3>
+                    <p class="text-slate-500 leading-relaxed">Koneksi stabil di segala cuaca dengan teknologi kabel optik modern hingga ke dalam rumah Anda.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 mx-auto bg-purple-50 text-brand-purple rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Unlimited Tanpa FUP</h3>
+                    <p class="text-slate-500 leading-relaxed">Bebas streaming dan gaming 24 jam nonstop tanpa khawatir kecepatan diturunkan di akhir bulan.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 mx-auto bg-purple-50 text-brand-purple rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Dukungan Teknisi Lokal</h3>
+                    <p class="text-slate-500 leading-relaxed">Penanganan kendala lebih cepat karena tim teknisi kami bersiaga penuh di area layanan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paket Harga Section -->
+    <section id="paket" class="py-24 bg-brand-gray relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Pilih Kecepatan Internet Anda</h2>
+                <p class="text-slate-500 font-medium max-w-2xl mx-auto text-lg">
+                    Semua paket mendapatkan <span class="text-brand-purple font-bold">Promo Pemasangan Rp 50.000</span> (Sudah termasuk gratis internet bulan pertama). Harga di bawah adalah tarif flat untuk bulan ke-2 dan seterusnya.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
+                
+                <!-- Paket 20 Mbps -->
+                <div class="bg-brand-dark rounded-3xl p-8 lg:p-10 relative transform transition duration-300 hover:-translate-y-2 shadow-2xl z-10 border border-slate-700 order-1 lg:order-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-brand-gold text-slate-900 px-6 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg">
+                        Paling Direkomendasikan
+                    </div>
+                    
+                    <div class="text-center border-b border-slate-700 pb-8 mb-8 mt-4">
+                        <h3 class="text-xl font-semibold text-slate-300">Basic Home</h3>
+                        <div class="flex items-center justify-center gap-1 mt-4">
+                            <span class="text-5xl font-black text-white">20</span>
+                            <span class="text-xl font-bold text-brand-gold">Mbps</span>
+                        </div>
+                        <p class="text-3xl font-bold text-white mt-6">Rp 110.000<span class="text-sm text-slate-400 font-normal">/bln</span></p>
+                    </div>
+                    
+                    <ul class="space-y-4 text-slate-300 mb-10 font-medium text-sm">
+                        <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i> Maksimal 3-5 Perangkat</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i> Streaming YouTube Lancar</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i> Browsing & Sosmed Cepat</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i> 100% Unlimited Tanpa FUP</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i> Peminjaman Modem Gratis</li>
+                    </ul>
+                    <!-- Pesan Spesifik 20 Mbps -->
+                    <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20mau%20dong%20*PROMO%20PASANG%2050%20RIBU*-nya.%20Saya%20pilih%20paket%20*Basic%20Home%2020Mbps%20(Rp110rb%2Fbln)*.%20Tolong%20dibantu%20cek%20ketersediaan%20jaringan%20di%20alamat%20saya%20ya.%20Terima%20kasih!%20%F0%9F%9A%80" class="block text-center w-full bg-brand-purple text-white font-bold py-4 rounded-xl hover:bg-purple-500 transition-colors shadow-glow">
+                        Berlangganan Sekarang
+                    </a>
+                </div>
+
+                <!-- Paket 30 Mbps -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 hover:border-brand-purple/30 transition-all shadow-premium mt-8 lg:mt-0 order-2 lg:order-1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center border-b border-slate-100 pb-8 mb-8">
+                        <h3 class="text-xl font-semibold text-slate-500">Family Pro</h3>
+                        <div class="flex items-center justify-center gap-1 mt-4">
+                            <span class="text-4xl font-black text-slate-800">30</span>
+                            <span class="text-lg font-bold text-brand-purple">Mbps</span>
+                        </div>
+                        <p class="text-3xl font-bold text-slate-800 mt-6">Rp 150.000<span class="text-sm text-slate-500 font-normal">/bln</span></p>
+                    </div>
+                    <ul class="space-y-4 text-slate-600 mb-10 text-sm font-medium">
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Maksimal 6-8 Perangkat</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Gaming Online Stabil</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Streaming Smart TV HD</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> 100% Unlimited Tanpa FUP</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Peminjaman Modem Gratis</li>
+                    </ul>
+                    <!-- Pesan Spesifik 30 Mbps -->
+                    <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20mau%20dong%20*PROMO%20PASANG%2050%20RIBU*-nya.%20Saya%20pilih%20paket%20*Family%20Pro%2030Mbps%20(Rp150rb%2Fbln)*.%20Tolong%20dibantu%20cek%20ketersediaan%20jaringan%20di%20alamat%20saya%20ya.%20Terima%20kasih!%20%F0%9F%9A%80" class="block text-center w-full bg-slate-50 text-slate-800 font-bold py-4 rounded-xl border border-slate-200 hover:bg-slate-100 hover:text-brand-purple transition-colors">
+                        Pilih Paket
+                    </a>
+                </div>
+
+                <!-- Paket 50 Mbps -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 hover:border-brand-purple/30 transition-all shadow-premium mt-8 lg:mt-0 order-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-center border-b border-slate-100 pb-8 mb-8">
+                        <h3 class="text-xl font-semibold text-slate-500">Ultra Max</h3>
+                        <div class="flex items-center justify-center gap-1 mt-4">
+                            <span class="text-4xl font-black text-slate-800">50</span>
+                            <span class="text-lg font-bold text-brand-purple">Mbps</span>
+                        </div>
+                        <p class="text-3xl font-bold text-slate-800 mt-6">Rp 180.000<span class="text-sm text-slate-500 font-normal">/bln</span></p>
+                    </div>
+                    <ul class="space-y-4 text-slate-600 mb-10 text-sm font-medium">
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> 10+ Perangkat Bersamaan</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Download File Besar Cepat</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Mendukung WFH & CCTV</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> 100% Unlimited Tanpa FUP</li>
+                        <li class="flex items-center"><i class="fas fa-check text-brand-purple mr-3"></i> Peminjaman Modem Gratis</li>
+                    </ul>
+                    <!-- Pesan Spesifik 50 Mbps -->
+                    <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20mau%20dong%20*PROMO%20PASANG%2050%20RIBU*-nya.%20Saya%20pilih%20paket%20*Ultra%20Max%2050Mbps%20(Rp180rb%2Fbln)*.%20Tolong%20dibantu%20cek%20ketersediaan%20jaringan%20di%20alamat%20saya%20ya.%20Terima%20kasih!%20%F0%9F%9A%80" class="block text-center w-full bg-slate-50 text-slate-800 font-bold py-4 rounded-xl border border-slate-200 hover:bg-slate-100 hover:text-brand-purple transition-colors">
+                        Pilih Paket
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proses Pendaftaran Section -->
+    <section id="cara-daftar" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Cara Mudah Berlangganan</h2>
+                <p class="text-slate-500">Proses cepat tanpa repot keluar rumah.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto relative">
+                <!-- Garis Penghubung -->
+                <div class="hidden md:block absolute top-8 left-[15%] right-[15%] h-0.5 bg-slate-100 z-0"></div>
+                
+                <div class="text-center relative z-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 mx-auto bg-brand-dark text-white rounded-full flex items-center justify-center font-bold text-xl mb-4 shadow-lg border-4 border-white">1</div>
+                    <h4 class="font-bold text-slate-800 mb-2">Hubungi Admin</h4>
+                    <p class="text-sm text-slate-500">Klik tombol WhatsApp dan pilih paket internet yang Anda inginkan.</p>
+                </div>
+                <div class="text-center relative z-10" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 mx-auto bg-brand-purple text-white rounded-full flex items-center justify-center font-bold text-xl mb-4 shadow-lg border-4 border-white">2</div>
+                    <h4 class="font-bold text-slate-800 mb-2">Jadwal Pemasangan</h4>
+                    <p class="text-sm text-slate-500">Teknisi kami akan datang ke lokasi Anda sesuai jadwal yang disepakati.</p>
+                </div>
+                <div class="text-center relative z-10" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 mx-auto bg-brand-gold text-slate-900 rounded-full flex items-center justify-center font-bold text-xl mb-4 shadow-lg border-4 border-white">3</div>
+                    <h4 class="font-bold text-slate-800 mb-2">Internet Aktif</h4>
+                    <p class="text-sm text-slate-500">Bayar Rp 50.000 ke teknisi, internet langsung aktif 1 bulan penuh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <img src="213055.png" alt="Logo Helium" class="h-10 mb-4 opacity-90 mx-auto md:mx-0 object-contain">
+                    <p class="text-sm">Koneksi Fiber Optik Terpercaya untuk Keluarga dan Bisnis.</p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-white font-bold mb-2">Butuh Bantuan Cepat?</p>
+                    <!-- Pesan WA Umum -->
+                    <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20lihat%20website-nya%20dan%20tertarik%20banget%20dengan%20*Promo%20Pasang%2050%20Ribu%20(Langsung%20Aktif%201%20Bulan)*.%20Boleh%20minta%20info%20detailnya%20untuk%20lokasi%20saya%3F" class="inline-flex items-center text-brand-gold hover:text-white transition-colors">
+                        <i class="fab fa-whatsapp text-xl mr-2"></i> 0858-1098-1623
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2026 PT Helium Sinergi Telekomunikasi. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <!-- Pesan WA Umum -->
+    <a href="https://wa.me/6285810981623?text=Halo%20Admin%20Helium!%20%F0%9F%91%8B%20Saya%20lihat%20website-nya%20dan%20tertarik%20banget%20dengan%20*Promo%20Pasang%2050%20Ribu%20(Langsung%20Aktif%201%20Bulan)*.%20Boleh%20minta%20info%20detailnya%20untuk%20lokasi%20saya%3F" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-xl hover:scale-110 transition-transform z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+        });
+    </script>
+</body>
+</html>
